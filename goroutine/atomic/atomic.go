@@ -6,9 +6,9 @@ import (
 	"sync/atomic"
 )
 
-//func main() {
-//	atomicStore()
-//}
+func main() {
+	atomicStore()
+}
 
 func lock() {
 	mutex := sync.Mutex{}
